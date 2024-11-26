@@ -22,6 +22,13 @@ npm i -g @nestjs/cli
 docker compose up -d
 ```
 
+3. Seed database
+
+```/hash
+# endpoint
+http://localhost:PORT/seed
+```
+
 ## Stack
 
 - Mongo DB
