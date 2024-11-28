@@ -2,7 +2,9 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
-# Execute on development
+# PokeREST! 🦨
+
+This application is a RESTful api. CRUD Pokemon, search pokemon by id, number and name. Also a endpoint to seed the mongo database.
 
 1. Install Dependecies
 
@@ -22,7 +24,15 @@ npm i -g @nestjs/cli
 docker compose up -d
 ```
 
-3. Seed database
+4. Clone .env.template to .env and fill variables
+
+5. Run application
+
+```
+npm run start:dev
+```
+
+6. Seed database
 
 ```/hash
 # endpoint
